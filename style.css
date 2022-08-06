@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');body{
+    background-color: rgb(17, 0, 48);
+    display: flex;
+    font-family: 'Titillium Web', sans-serif;
+        align-items: center;
+    height: 100vh;
+    color: white;
+    justify-content: center;
+}
+.container{
+    margin: 10px;
+background-color: rgb(57, 53, 93);
+padding: 10px;
+border-radius: 10px;
+height: 400px;
+width: 600px;
+justify-content: space-between;
+box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.3);
+align-items: center;
+display: flex;
+flex-direction: column;
+}
+.upper{
+    margin-top: 30px;
+    height: 300px;
+    display: flex;
+    
+   
+}
+.form{
+    
+    width:350px;
+    display: flex;
+    flex-direction: column;
+    justify-content:space-between;
+    align-items: center;
+}
+input{
+    box-sizing: border-box;
+    background-color: transparent;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    padding-left: 15px;
+    font-weight: bolder;
+    color: white;
+    font-size: 20px;
+    border-bottom: 1px solid rgb(17, 0, 48);
+}
+.bottom{
+    display: flex;
+}
+.btn{
+    background-color: rgb(92, 92, 255);
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 5px;
+    letter-spacing: 2px;
+    border:none;
+    border-bottom: 2px solid rgb(17, 0, 48);
+    border-right: 2px solid rgb(17, 0, 48);
+    width: 150px;
+    transition:0.5s;
+    font-weight: bold;
+    text-align: center;
+
+}
+.btn:hover{
+    background-color: rgb(73, 255, 164);
+}
+.none{
+    display:none;
+}
+input:focus{
+    outline: none;
+    border:none;
+    border-bottom: 1px solid rgb(17, 0, 48);
+    
+}
+p{
+    font-size: 20px;
+    margin:2px;
+}
+span{
+    font-weight: bold;
+}
+.green{
+    color: rgb(0, 255, 0);
+}
+.red{
+    color: red;
+}
+.B{
+    color: rgb(212, 255, 0);
+}
+.C{
+    color: rgb(255, 230, 0);
+}
+.D{
+    color: rgb(255, 166, 0);
+}
+.E{
+    color: rgb(255, 115, 0);
+}
+.text{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    color: rgb(0, 0, 51);
+    min-width: 250px;
+    padding-left: 50px;
+}
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
+@media (max-width:650px){
+    .container{
+        height: 500px;
+width: 400px;
+}
+
+.upper{
+    flex-direction: column;
+
+}
+input{
+    margin-bottom: 25px;
+}
+.btn{
+    height: 40px;
+    font-size: large;
+}
+.text{
+    width:100%;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 0px;
+}
+#bottom{
+    padding-left: 12vw;
+}
+    
+}

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Percentage Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="upper" id="upper">
+            <div class="text">
+                    <h2 id="h2">Percentage Calculator</h2>
+            </div>
+            <div class="form">
+                <input type="number"  id="physics" placeholder="Enter Physics's Marks">
+                <input type="number"  id="chemistry" placeholder="Enter Chemistry's Marks">
+                <input type="number"  id="maths" placeholder="Enter Maths's Marks">
+                <input type="number"  id="bio" placeholder="Enter Biology's Marks">
+                <button class="btn" type="submit" onclick="calc()">Get Grades</button>
+
+            </div>
+        </div>
+        <div class="bottom none" id="bottom" >
+            <p id="para">Total marks is <span id="total">00</span> out of <span>400</span>. Percentage is <span id="percentage">00</span>. Grade <span id="Grade">A</span></p>
+            
+
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
